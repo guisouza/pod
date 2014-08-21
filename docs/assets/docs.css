@@ -17,26 +17,54 @@ hr {
   height: 70px;
 }
 
-.pod-blue {
+/*backgrounds*/
+
+.pod-bgblue {
   background-color: #9fdbee;
 }
 
-.pod-darkblue {
+.pod-bgdarkblue {
   background-color: #7fbde6;
 }
 
-.pod-red {
+.pod-bgred {
   background-color: #ee9f9f;
 }
 
-.pod-bloodred {
+.pod-bgbloodred {
   background-color: #e67f7f;
 }
 
-.pod-green {
+.pod-bggreen {
   background-color: #9feebd;
 }
 
-.pod-brazilgreen {
+.pod-bgbrazilgreen {
   background-color: #7fe6af;
+}
+
+/*colors*/
+
+.pod-blue {
+  color: #9fdbee;
+}
+
+.pod-darkblue {
+  color: #7fbde6;
+}
+
+.pod-red {
+  color: #ee9f9f;
+}
+
+.pod-bloodred {
+  color: #e67f7f;
+}
+
+.pod-green {
+  color: #9feebd;
+}
+
+.pod-brazilgreen {
+  color: #7fe6af;
 }
