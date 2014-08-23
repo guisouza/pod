@@ -2,9 +2,35 @@
 Pod!
 */
 
-/* Main colors */
+/* Colors
+   --------------------------- */
 
-.info {
-  color: #9fdbee;
+/**
+  * 
+*/
+
+.pod-bgblue {
+  background-color: #9fdbee;
+}
+
+.pod-bgdarkblue {
+  background-color: #7fbde6;
+}
+
+.pod-bgred {
+  background-color: #ee9f9f;
+}
+
+.pod-bgbloodred {
+  background-color: #e67f7f;
+}
+
+.pod-bggreen {
+  background-color: #92e560;
+}
+
+.pod-bgbrazilgreen {
+  background-color: #83cf54;
+}
   
 }

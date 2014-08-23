@@ -17,6 +17,13 @@ hr {
   height: 70px;
 }
 
+.color-demo p {
+  padding-top: 20px;
+  margin: 0px;
+  text-align: center;
+  font-size: 24px;
+}
+
 /*backgrounds*/
 
 .pod-bgblue {
@@ -36,11 +43,11 @@ hr {
 }
 
 .pod-bggreen {
-  background-color: #9feebd;
+  background-color: #92e560;
 }
 
 .pod-bgbrazilgreen {
-  background-color: #7fe6af;
+  background-color: #83cf54;
 }
 
 /*colors*/
@@ -62,9 +69,9 @@ hr {
 }
 
 .pod-green {
-  color: #9feebd;
+  color: #92e560;
 }
 
 .pod-brazilgreen {
-  color: #7fe6af;
+  color: #83cf54;
 }
