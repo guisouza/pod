@@ -6,31 +6,46 @@ Pod!
    --------------------------- */
 
 /**
-  * 
+  * All colors comes with two shades: light and dark.
+  * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-"
 */
 
-.pod-bgblue {
+.lite-blue {
   background-color: #9fdbee;
 }
 
-.pod-bgdarkblue {
+.drk-blue {
   background-color: #7fbde6;
 }
 
-.pod-bgred {
+.lite-red {
   background-color: #ee9f9f;
 }
 
-.pod-bgbloodred {
+.drk-red {
   background-color: #e67f7f;
 }
 
-.pod-bggreen {
+.lite-green {
   background-color: #92e560;
 }
 
-.pod-bgbrazilgreen {
+.drk-green {
   background-color: #83cf54;
 }
-  
+
+.lite-yellow {
+  background-color: #fce788;
+}
+
+.drk-yellow {
+  background-color: #cc9f3c;
+}
+
+.lite-grey {
+  background-color: #e7e8e7;
+}
+
+.drk-grey {
+  background-color: #929498;
 }
