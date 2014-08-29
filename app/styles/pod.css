@@ -7,7 +7,8 @@ Pod!
 
 /**
   * All colors comes with two shades: light and dark.
-  * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-"
+  * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-".
+  * This part of stylesheet is just to inform what colors comes with Pod! and for further reference for SASS variables.
 */
 
 .lite-blue {
@@ -48,4 +49,23 @@ Pod!
 
 .drk-grey {
   background-color: #929498;
+}
+
+/* Buttons
+    --------------------------- */
+
+/**
+  * Buttons are divided in X groups: simple, confirmation and decline.
+*/
+
+.btn-simple {
+  background: #9fdbee;
+}
+
+.btn-confirm {
+  background: #92e560;
+}
+
+.btn-decline {
+  background: #ee9f9f;
 }
