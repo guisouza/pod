@@ -59,7 +59,7 @@ Pod!
 */
 .btn {
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 14px;
   font-kerning: auto;
   width: 200px;
   height: 35px;
@@ -70,7 +70,7 @@ Pod!
 
 .btn-big {
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 18px;
   font-kerning: auto;
   width: 350px;
   height: 45px;
@@ -95,4 +95,16 @@ Pod!
   background: #ee9f9f;
   box-shadow: #e67f7f;
   color: #e67f7f;
+}
+
+.btn-yellow {
+  background: #fce788;
+  box-shadow: #cc9f3c;
+  color: #cc9f3c;
+}
+
+.btn-grey {
+  background: #e7e8e7;
+  box-shadow: #929498;
+  color: #929498;
 }
