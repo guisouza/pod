@@ -57,15 +57,42 @@ Pod!
 /**
   * Buttons are divided in X groups: simple, confirmation and decline.
 */
+.btn {
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-kerning: auto;
+  width: 200px;
+  height: 35px;
+  border: 0px;
+  box-shadow: 0px 3px 0px;
+  border-radius: 5px;
+}
+
+.btn-big {
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-kerning: auto;
+  width: 350px;
+  height: 45px;
+  border: 0px;
+  box-shadow: 0px 3px 0px;
+  border-radius: 7px;
+}
 
 .btn-simple {
   background: #9fdbee;
+  box-shadow: #7fbde6;
+  color: #7fbde6;
 }
 
 .btn-confirm {
   background: #92e560;
+  box-shadow: #83cf54;
+  color: #83cf54;
 }
 
 .btn-decline {
   background: #ee9f9f;
+  box-shadow: #e67f7f;
+  color: #e67f7f;
 }
