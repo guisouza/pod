@@ -4,7 +4,6 @@ Pod!
 
 /* Colors
    --------------------------- */
-
 /**
   * All colors comes with two shades: light and dark.
   * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-".
@@ -53,12 +52,14 @@ Pod!
 
 /* Buttons
     --------------------------- */
-
 /**
   * Buttons are divided in X groups: simple, confirmation and decline.
 */
+
 .btn {
   letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: 200;
   font-size: 14px;
   font-kerning: auto;
   width: 200px;
@@ -70,6 +71,8 @@ Pod!
 
 .btn-big {
   letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: 200;
   font-size: 18px;
   font-kerning: auto;
   width: 350px;
@@ -77,6 +80,19 @@ Pod!
   border: 0px;
   box-shadow: 0px 3px 0px;
   border-radius: 7px;
+}
+
+.btn-sm {
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: 12px;
+  font-kerning: auto;
+  width: 120px;
+  height: 25px;
+  border: 0px;
+  box-shadow: 0px 3px 0px;
+  border-radius: 5px;
 }
 
 .btn-simple {
@@ -106,5 +122,24 @@ Pod!
 .btn-grey {
   background: #e7e8e7;
   box-shadow: #929498;
+  color: #929498;
+}
+
+/* Inputs
+    --------------------------- */
+/**
+  * Need to describe.
+*/
+
+.input-simple {
+  height: 35px;
+  width: 280px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-weight: 200;
+  font-size: 14px;
   color: #929498;
 }
