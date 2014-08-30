@@ -66,7 +66,7 @@ Pod!
   height: 35px;
   border: 0px;
   box-shadow: 0px 3px 0px;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
 .btn-big {
@@ -79,7 +79,7 @@ Pod!
   height: 45px;
   border: 0px;
   box-shadow: 0px 3px 0px;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 
 .btn-sm {
@@ -91,8 +91,8 @@ Pod!
   width: 120px;
   height: 25px;
   border: 0px;
-  box-shadow: 0px 3px 0px;
-  border-radius: 5px;
+  box-shadow: 0px 2px 0px;
+  border-radius: 3px;
 }
 
 .btn-simple {
@@ -131,15 +131,44 @@ Pod!
   * Need to describe.
 */
 
-.input-simple {
+.input {
   height: 35px;
   width: 280px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-kerning: auto;
+  font-weight: 200;
+  font-size: 14px;
+  color: #929498;
+}
+
+.input-big {
+  height: 45px;
+  width: 380px;
   border-radius: 5px;
   border-style: none;
   background-color: #efefef;
   letter-spacing: 1px;
   text-transform: lowercase;
+  font-kerning: auto;
   font-weight: 200;
-  font-size: 14px;
+  font-size: 18px;
+  color: #929498;
+}
+
+.input-sm {
+  height: 25px;
+  width: 180px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-kerning: auto;
+  font-weight: 200;
+  font-size: 12px;
   color: #929498;
 }
