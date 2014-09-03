@@ -5,9 +5,6 @@ The main reason to maintain this TODO file is to keep track of what's being work
 
 ***
 
-### Redesign
-Redesign base elements (buttons).
-
 ### Effects
 Create hover effects on all elements.
 
@@ -25,3 +22,10 @@ Create some logo and visual identity for Document it right - Part 2.
 
 ### Atomic Design
 Adapt Pod! to atomic design concept.
+
+***
+
+## Implemented
+
+### Redesign 
+Redesign base elements (buttons).
