@@ -2,21 +2,12 @@
 Pod!
 */
 
-/* Fonts
-   --------------------------- */
-/**
-  * Pod! contains one typeface, Hallo Sans (https://www.behance.net/gallery/13212059/Hallo-Sans-Free-typeface) which is nice and clean and matches perfectly.
-*/
-
-
-
-/* Colors
-   --------------------------- */
+/* Colors ================== */
 /**
   * All colors comes with two shades: light and dark.
   * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-".
   * This part of stylesheet is just to inform what colors comes with Pod! and for further reference for SASS variables.
-*/
+**/
 
 .lite-blue {
   background-color: #4c85f8;
@@ -74,11 +65,10 @@ Pod!
   background-color: #eb4d29;
 }
 
-/* Buttons
-    --------------------------- */
+/* Buttons ==================*/
 /**
   * Buttons are divided in 2 groups: size and color/type.
-*/
+**/
 
 /* Size */
 
@@ -87,8 +77,8 @@ Pod!
   text-transform: lowercase;
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.09);
-  font-weight: 200;
-  font-size: 14px;
+  font-family: "HalloSans";
+  font-size: 16px;
   font-kerning: auto;
   width: 200px;
   height: 35px;
@@ -106,8 +96,8 @@ Pod!
   text-transform: lowercase;
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.09);
-  font-weight: 200;
-  font-size: 18px;
+  font-family: "HalloSans";
+  font-size: 20px;
   font-kerning: auto;
   width: 350px;
   height: 45px;
@@ -125,8 +115,8 @@ Pod!
   text-transform: lowercase;
   color: #fff;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.09);
-  font-weight: 200;
-  font-size: 12px;
+  font-family: "HalloSans";
+  font-size: 14px;
   font-kerning: auto;
   width: 120px;
   height: 25px;
@@ -183,8 +173,7 @@ Pod!
   border-color: #d23e1d;
 }
 
-/* Inputs
-    --------------------------- */
+/* Inputs ================== */
 
 .input {
   height: 35px;
@@ -194,9 +183,9 @@ Pod!
   background-color: #efefef;
   letter-spacing: 1px;
   text-transform: lowercase;
+  font-family: "HalloSans";
   font-kerning: auto;
-  font-weight: 200;
-  font-size: 14px;
+  font-size: 16px;
   color: #929498;
 }
 
@@ -208,9 +197,9 @@ Pod!
   background-color: #efefef;
   letter-spacing: 1px;
   text-transform: lowercase;
+  font-family: "HalloSans";
   font-kerning: auto;
-  font-weight: 200;
-  font-size: 18px;
+  font-size: 20px;
   color: #929498;
 }
 
@@ -222,8 +211,281 @@ Pod!
   background-color: #efefef;
   letter-spacing: 1px;
   text-transform: lowercase;
+  font-family: "HalloSans";
   font-kerning: auto;
-  font-weight: 200;
-  font-size: 12px;
+  font-size: 14px;
   color: #929498;
+}
+
+/* Fonts ================== */
+/**
+  * Pod! contains one typeface, Hallo Sans (https://www.behance.net/gallery/13212059/Hallo-Sans-Free-typeface) which is nice and clean and matches perfectly.
+  * There 72 font icons extracted from Icomoon.
+**/
+
+/* Hallo Sans */
+
+@font-face {
+	font-family: "HalloSans";
+	src: url('fonts/hallo-sans.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HalloSansLight";
+	src: url('fonts/hallo-sans-light.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "HalloSansBold";
+	src: url('fonts/hallo-sans-black.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Icomoon */
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?y32a8e');
+	src:url('fonts/icomoon.eot?#iefixy32a8e') format('embedded-opentype'),
+		url('fonts/icomoon.woff?y32a8e') format('woff'),
+		url('fonts/icomoon.ttf?y32a8e') format('truetype'),
+		url('fonts/icomoon.svg?y32a8e#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e600";
+}
+.icon-pencil:before {
+	content: "\e601";
+}
+.icon-image:before {
+	content: "\e602";
+}
+.icon-camera:before {
+	content: "\e603";
+}
+.icon-music:before {
+	content: "\e604";
+}
+.icon-connection:before {
+	content: "\e605";
+}
+.icon-file:before {
+	content: "\e606";
+}
+.icon-tag:before {
+	content: "\e607";
+}
+.icon-cart:before {
+	content: "\e608";
+}
+.icon-credit:before {
+	content: "\e609";
+}
+.icon-support:before {
+	content: "\e60a";
+}
+.icon-phone:before {
+	content: "\e60b";
+}
+.icon-notebook:before {
+	content: "\e60c";
+}
+.icon-location:before {
+	content: "\e60d";
+}
+.icon-map:before {
+	content: "\e60e";
+}
+.icon-clock:before {
+	content: "\e60f";
+}
+.icon-clock2:before {
+	content: "\e610";
+}
+.icon-calendar:before {
+	content: "\e611";
+}
+.icon-tablet:before {
+	content: "\e612";
+}
+.icon-drawer:before {
+	content: "\e613";
+}
+.icon-drawer2:before {
+	content: "\e614";
+}
+.icon-disk:before {
+	content: "\e615";
+}
+.icon-bubbles:before {
+	content: "\e616";
+}
+.icon-user:before {
+	content: "\e617";
+}
+.icon-search:before {
+	content: "\e618";
+}
+.icon-key:before {
+	content: "\e619";
+}
+.icon-lock:before {
+	content: "\e61a";
+}
+.icon-cog:before {
+	content: "\e61b";
+}
+.icon-pie:before {
+	content: "\e61c";
+}
+.icon-bars:before {
+	content: "\e61d";
+}
+.icon-switch:before {
+	content: "\e61e";
+}
+.icon-signup:before {
+	content: "\e61f";
+}
+.icon-star:before {
+	content: "\e620";
+}
+.icon-heart:before {
+	content: "\e621";
+}
+.icon-heart-broken:before {
+	content: "\e622";
+}
+.icon-thumbs-up:before {
+	content: "\e623";
+}
+.icon-thumbs-up2:before {
+	content: "\e624";
+}
+.icon-happy:before {
+	content: "\e625";
+}
+.icon-sad:before {
+	content: "\e626";
+}
+.icon-notification:before {
+	content: "\e627";
+}
+.icon-question:before {
+	content: "\e628";
+}
+.icon-info:before {
+	content: "\e629";
+}
+.icon-checkmark:before {
+	content: "\e62a";
+}
+.icon-facebook:before {
+	content: "\e62b";
+}
+.icon-instagram:before {
+	content: "\e62c";
+}
+.icon-twitter:before {
+	content: "\e62d";
+}
+.icon-feed:before {
+	content: "\e62e";
+}
+.icon-youtube:before {
+	content: "\e62f";
+}
+.icon-vimeo2:before {
+	content: "\e630";
+}
+.icon-flickr:before {
+	content: "\e631";
+}
+.icon-picassa:before {
+	content: "\e632";
+}
+.icon-dribbble:before {
+	content: "\e633";
+}
+.icon-forrst:before {
+	content: "\e634";
+}
+.icon-deviantart:before {
+	content: "\e635";
+}
+.icon-steam:before {
+	content: "\e636";
+}
+.icon-github:before {
+	content: "\e637";
+}
+.icon-wordpress:before {
+	content: "\e638";
+}
+.icon-blogger:before {
+	content: "\e639";
+}
+.icon-tumblr:before {
+	content: "\e63a";
+}
+.icon-yahoo:before {
+	content: "\e63b";
+}
+.icon-tux:before {
+	content: "\e63c";
+}
+.icon-apple:before {
+	content: "\e63d";
+}
+.icon-android:before {
+	content: "\e63e";
+}
+.icon-windows8:before {
+	content: "\e63f";
+}
+.icon-soundcloud:before {
+	content: "\e640";
+}
+.icon-skype:before {
+	content: "\e641";
+}
+.icon-linkedin:before {
+	content: "\e642";
+}
+.icon-lastfm:before {
+	content: "\e643";
+}
+.icon-delicious:before {
+	content: "\e644";
+}
+.icon-pinterest:before {
+	content: "\e645";
+}
+.icon-foursquare:before {
+	content: "\e646";
+}
+.icon-paypal:before {
+	content: "\e647";
 }
