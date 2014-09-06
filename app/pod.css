@@ -240,6 +240,7 @@ Pod!
   font-family: "Ubuntu", sans-serif;
   font-kerning: auto;
   font-size: 16px;
+  font-weight: 300;
   color: #929498;
   outline: none;
 }
@@ -255,6 +256,7 @@ Pod!
   font-family: "Ubuntu", sans-serif;
   font-kerning: auto;
   font-size: 20px;
+  font-weight: 300;
   color: #929498;
   outline: none;
 }
@@ -270,8 +272,25 @@ Pod!
   font-family: "Ubuntu", sans-serif;
   font-kerning: auto;
   font-size: 14px;
+  font-weight: 300;
   color: #929498;
   outline: none;
+}
+
+::-webkit-input-placeholder { 
+  color: rgba(0, 0, 0, 0.2);
+}
+
+:-moz-placeholder {
+   color: rgba(0, 0, 0, 0.2);
+}
+
+::-moz-placeholder {
+   color: rgba(0, 0, 0, 0.2);
+}
+
+:-ms-input-placeholder {  
+   color: rgba(0, 0, 0, 0.2);
 }
 
 /* Fonts ================== */
