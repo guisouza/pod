@@ -4,14 +4,10 @@ Pod!
 
 body {
   font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
 }
 
 /* Typography ================== */
-/**
-  * All colors comes with two shades: light and dark.
-  * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-".
-  * This part of stylesheet is just to inform what colors comes with Pod! and for further reference for SASS variables.
-**/
 
 h1 {
   font-size: 38px;
@@ -45,7 +41,14 @@ h6 {
 
 p {
   font-size: 16px;
-  font-weight: 300;
+}
+
+.feat {
+  font-size: 18px;
+}
+
+mark {
+  background-color: #f9dc7c;
 }
 
 /* Colors ================== */
