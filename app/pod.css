@@ -51,6 +51,30 @@ mark {
   background-color: #f9dc7c;
 }
 
+blockquote {
+  border-left: 4px solid #4c85f8;
+  padding-left: 8px;
+  font-size: 18px;
+}
+
+code {
+  padding: 1px;
+  border-radius: 4px;
+  background-color: #e7e8e7;
+  color: #3160e0;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+kbd {
+  padding: 3px;
+  border-radius: 4px;
+  background-color: #3160e0;
+  color: #fff;
+  font-family: monospace;
+  font-size: 14px;
+}
+
 /* Colors ================== */
 /**
   * All colors comes with two shades: light and dark.
