@@ -1,0 +1,66 @@
+.input {
+  height: 35px;
+  width: 280px;
+  padding: 0;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-kerning: auto;
+  font-size: 16px;
+  font-weight: 300;
+  color: #929498;
+  outline: none;
+}
+
+.input-big {
+  height: 45px;
+  width: 380px;
+  padding: 0;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-kerning: auto;
+  font-size: 20px;
+  font-weight: 300;
+  color: #929498;
+  outline: none;
+}
+
+.input-sm {
+  height: 25px;
+  width: 180px;
+  padding: 0;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #efefef;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  font-family: "Ubuntu", sans-serif;
+  font-kerning: auto;
+  font-size: 14px;
+  font-weight: 300;
+  color: #929498;
+  outline: none;
+}
+
+::-webkit-input-placeholder { 
+  color: rgba(0, 0, 0, 0.2);
+}
+
+:-moz-placeholder {
+   color: rgba(0, 0, 0, 0.2);
+}
+
+::-moz-placeholder {
+   color: rgba(0, 0, 0, 0.2);
+}
+
+:-ms-input-placeholder {  
+   color: rgba(0, 0, 0, 0.2);
+}

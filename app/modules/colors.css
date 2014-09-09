@@ -1,0 +1,69 @@
+/**
+  * All colors comes with two shades: light and dark.
+  * Light colors contains the prefix "lite-", dark colors contains the prefix "drk-".
+  * This part of stylesheet is just to inform what colors comes with Pod! and for further reference for SASS variables.
+**/
+
+.lite-blue {
+  color: #4c85f8;
+}
+
+.drk-blue {
+  color: #3160e0;
+}
+
+.lite-red {
+  color: #fe5356;
+}
+
+.drk-red {
+  color: #c11d13;
+}
+
+.lite-green {
+  color: #99e462;
+}
+
+.drk-green {
+  color: #70b939;
+}
+
+.lite-yellow {
+  color: #f9dc7c;
+}
+
+.drk-yellow {
+  color: #dcb224;
+}
+
+.lite-grey {
+  color: #e7e8e7;
+}
+
+.drk-grey {
+  color: #929498;
+}
+
+.lite-mineral {
+  color: #30c7d5;
+}
+
+.dark-mineral {
+  color: #2caebe;
+}
+
+.lite-tangerina {
+ color: #fb764f;  
+}
+
+.dark-tangerina {
+  color: #eb4d29;
+}
+
+.lite-grape {
+  color: #be69e1;
+}
+
+.drk-grape {
+  color: #8430a7;
+}
